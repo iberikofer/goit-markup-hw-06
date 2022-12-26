@@ -95,7 +95,7 @@
 			</path>
 		</symbol>
 		<symbol id="icon-close">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+			<svg width="24" height="24" fill="none">
 				<circle cx="12" cy="12" r="12" fill="#E7E9FC" />
 				<circle cx="12" cy="12" r="11.5" stroke="#000" stroke-opacity=".1" />
 				<g clip-path="url(#a)">
@@ -103,6 +103,11 @@
 				</g>
 				<defs>
 				</defs>
+			</svg>
+		</symbol>
+		<symbol id="icon-telegram">
+			<svg fill="none">
+				<path fill="#fff" d="M24 2 0 13.25l7.67 2.367L19.5 6.375l-8.998 10.116.007.003-.009-.003V22l4.301-4.182 5.45 1.682L24 2Z" />
 			</svg>
 		</symbol>
 	</defs>
