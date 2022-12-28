@@ -894,6 +894,8 @@ footer {
   margin: 16px 0px 24px;
   display: flex;
   padding-left: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .checkbox {
@@ -921,14 +923,8 @@ footer {
 }
 
 .checkbox-hidden:checked + .checkbox {
-  background-image: url(../images/symbol-defs.svg#checkmark);
   background-color: var(--ocean);
-}
-
-.svg {
-  width: 10px;
-  height: 8px;
-  fill: var(--white);
+  background-image: url(../images/symbol-defs.svg#checkmark);
 }
 
 .policy-link {
