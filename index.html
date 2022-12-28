@@ -443,9 +443,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <form class="modal">
-        <svg class="button-close" data-modal-close>
-          <use href="./images/symbol-defs.svg#icon-close"></use>
-        </svg>
+        <button class="button-close" data-modal-close>
+          <svg class="button-close-icon">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
         <h3 class="form-heading">
           Leave your contacts and we will call you back
         </h3>
@@ -456,7 +458,6 @@
               type="text"
               name="text-input"
               class="text-input"
-              required
               autocomplete="off"
             />
             <svg class="form-icon name-icon">
@@ -469,7 +470,6 @@
               type="text"
               name="text-input"
               class="text-input"
-              required
               autocomplete="off"
             />
             <svg class="form-icon phone-icon">
@@ -482,7 +482,6 @@
               type="email"
               name="text-input"
               class="text-input"
-              required
               autocomplete="off"
             />
             <svg class="form-icon mail-icon">
@@ -499,15 +498,17 @@
             ></textarea>
           </label>
         </div>
-        <label class="policy-checkbox">
+        <label class="policy-checkbox-label">
           <input
             type="checkbox"
             name="policy-accept-checkbox"
-            class="policy-accept"
-          /><span
-            >I accept the terms and conditions of the
-            <a href="#" class="policy-link">Privacy Policy</a></span
-          >
+            class="checkbox-hidden"
+          />
+          <span class="checkbox"></span>
+          <span>
+            I accept the terms and conditions of the
+            <a href="#" class="policy-link">Privacy Policy</a>
+          </span>
         </label>
         <button type="submit" class="form-sub-button">Send</button>
       </form>
