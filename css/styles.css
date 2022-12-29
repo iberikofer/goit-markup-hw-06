@@ -828,8 +828,8 @@ footer {
 
 .form-icon {
   position: absolute;
-  left: 19px;
   top: 50%;
+  left: 16px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -840,13 +840,15 @@ footer {
 }
 
 .phone-icon {
-  width: 13px;
-  height: 13px;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-10%);
 }
 
 .mail-icon {
-  width: 16px;
-  height: 12px;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-10%);
 }
 
 .comment {
@@ -906,9 +908,7 @@ footer {
   border-radius: 2px;
   margin-left: -24px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -925,6 +925,8 @@ footer {
 .checkbox-hidden:checked + .checkbox {
   background-color: var(--ocean);
   background-image: url(../images/checkmark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .policy-link {
