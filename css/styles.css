@@ -924,7 +924,7 @@ footer {
 
 .checkbox-hidden:checked + .checkbox {
   background-color: var(--ocean);
-  background-image: url(../images/symbol-defs.svg#checkmark);
+  background-image: url(../images/checkmark.svg);
 }
 
 .policy-link {
