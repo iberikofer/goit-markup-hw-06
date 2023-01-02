@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --iris: #4d5ae5;
-  --iris-2: #404bbf;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
   --slate: #434455;
@@ -39,7 +44,7 @@ button {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1158px;
+  width: 1158px;
 }
 
 .section {
@@ -173,7 +178,7 @@ button {
 .head-hero {
   background-color: var(--navy-blue);
   padding: 192px 0px;
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +203,7 @@ button {
   font-size: 56px;
   font-weight: 500;
   line-height: 1.07;
-  max-width: 492px;
+  width: 492px;
   letter-spacing: 0.02em;
 }
 
@@ -227,7 +232,7 @@ button {
 
 .hero-button:active,
 .hero-button:focus {
-  background-color: var(--iris-2);
+  background-color: var(--ocean);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -249,6 +254,7 @@ button {
   background-color: var(--cloud);
   height: 112px;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .feature-icon {
@@ -325,10 +331,6 @@ button {
   background-color: #ffffff;
 }
 
-.crew-member > img {
-  display: block;
-}
-
 .position {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -360,7 +362,7 @@ button {
 
 .social-media-list a:hover,
 .social-media-list a:focus {
-  background-color: var(--iris-2);
+  background-color: var(--ocean);
 }
 
 .sm-icon {
@@ -412,8 +414,8 @@ button {
 }
 
 .icon-link:focus {
-  border-color: var(--iris);
-  color: var(--iris);
+  border-color: var(--ocean);
+  color: var(--ocean);
   fill: currentColor;
 }
 
@@ -452,7 +454,7 @@ button {
 .filter-button:active,
 .filter-button:focus {
   color: var(--cornflower);
-  background-color: var(--iris-2);
+  background-color: var(--ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -514,10 +516,6 @@ button {
 .card-photo {
   position: relative;
   overflow: hidden;
-}
-
-.card-photo img {
-  display: block;
 }
 
 .about-text {
@@ -693,7 +691,7 @@ footer {
 }
 
 .sub-button:focus {
-  background-color: var(--iris-2);
+  background-color: var(--ocean);
 }
 
 .sub-button-icon {
@@ -956,7 +954,7 @@ footer {
 }
 
 .form-sub-button:focus {
-  background-color: var(--iris-2);
+  background-color: var(--ocean);
 }
 
 .form-sub-button:hover {
